@@ -7,14 +7,14 @@
 
 const InputCity = ({
   city,
-  onChangeHandler,
+  onInputHandler,
   onSubmitHandler,
 }) => (
   <div>
     <input
       type="text"
       value={city}
-      onChange={onChangeHandler}
+      onChange={onInputHandler}
       placeholder="city name"
     />
     <button
