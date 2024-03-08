@@ -1,8 +1,5 @@
 /* eslint-disable react/prop-types */
 /*
-- Provides user with a search box where they can search weather
-  information by city name
-- Component contains input field and a submit button
 - Component takes 3 attributes:
     city (value), onChangeHandler, onSubmitHandler
 - Submit button initiates API call
@@ -18,6 +15,7 @@ const InputCity = ({
       type="text"
       value={city}
       onChange={onChangeHandler}
+      placeholder="city name"
     />
     <button
       type="submit"
